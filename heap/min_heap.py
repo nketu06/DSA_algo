@@ -50,13 +50,13 @@ class MinHeap:
 
 
 
-
-mh=MinHeap()
-print(mh.arr)
-mh.insert(10)
-print("added 10 \n",mh.arr)
-mh.remove()
-print("removed min\n",mh.arr)
+if __name__ == '__main__':
+    mh=MinHeap()
+    print(mh.arr)
+    mh.insert(10)
+    print("added 10 \n",mh.arr)
+    mh.remove()
+    print("removed min\n",mh.arr)
 
 
     
